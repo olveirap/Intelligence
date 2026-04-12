@@ -34,6 +34,18 @@ The Mesh prioritizes consistency through:
 ### 3. **Adaptive Learning**
 A feedback loop continuously validates decision rules, reducing the need for human intervention over time while maintaining safety constraints.
 
+## Theoretical Basis & Inspiration
+
+The Intelligence Mesh is grounded in emerging research on decentralized agentic systems and high-throughput autonomous engineering.
+
+### Related Papers
+- **[Agentic Fog: A Policy-driven Framework for Distributed Intelligence in Fog Computing](https://arxiv.org/abs/2601.20764)** — Explores treating distributed nodes as policy-driven autonomous agents. It provides the mathematical basis for stability and convergence in asynchronous, decentralized environments like the Mesh.
+- **[GEAKG: Generative Executable Algorithm Knowledge Graphs](https://arxiv.org/abs/2603.27922v1)** — Introduces representing procedural knowledge as executable graph structures. This informs the Mesh's approach to synthesizing actionable logic from high-entropy observation data.
+
+### Inspiration
+- **[Extreme Harness Engineering](https://www.latent.space/p/harness-eng)** — A shift in the engineering bottleneck from "writing code" to "building context." The Mesh adopts the philosophy of ultra-fast build loops and encoding "taste" into specs to drive autonomous behavior.
+- **Ghost Library ([Symphony](https://github.com/openai/sy))** — A spec-driven approach to software distribution where coding agents reproduce systems from high-fidelity specifications. The Mesh’s orchestration layer is inspired by these patterns of spec-first development.
+
 ## Key Components
 
 ### The Bus (Persistent Node)
